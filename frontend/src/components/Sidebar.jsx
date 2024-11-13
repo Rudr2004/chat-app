@@ -5,7 +5,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import { BiLogOut } from "react-icons/bi";
 import Avatar from './Avtar.jsx'
 import { useDispatch, useSelector } from 'react-redux';
-import EditUserDetails from './EditUserDetails';
+import EditUserDetails from './Edituserdetails.jsx';
 //import Divider from './Divider.jsx';
 import { FiArrowUpLeft } from "react-icons/fi";
 import SearchUser from './SearchUser';
