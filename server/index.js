@@ -17,7 +17,7 @@ app.use(
 
 app.use(
   cors({
-    origin: ["https://chat-app-frontend-plum.vercel.app"],
+    origin: ["https://chat-app.vercel.app"],
     methods: ["post", "get"],
     credentials: true,
   })
