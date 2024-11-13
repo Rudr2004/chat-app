@@ -15,14 +15,6 @@ app.use(
   })
 );
 
-app.use(
-  cors({
-    origin: ["https://chat-app.vercel.app"],
-    methods: ["post", "get"],
-    credentials: true,
-  })
-);
-
 mongoose.connect(process.env.MONGODB_URI);
 
 app.use(express.json());
