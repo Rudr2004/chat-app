@@ -15,6 +15,14 @@ app.use(
   })
 );
 
+app.use(
+  cors({
+    origin: ["https://chat-app-frontend-plum.vercel.app/"],
+    methods: ["post", "get"],
+    credentials: true,
+  })
+);
+
 mongoose.connect(process.env.MONGODB_URI);
 
 app.use(express.json());
